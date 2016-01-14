@@ -3,13 +3,12 @@
   text-align: center;
   padding: 10%;
   min-height: 300px;
-  /*min-height: 300px;*/
-  /*line-height: 300px;*/
-  /*max-height: 500px;*/
+
 }
 
-.col-border h3 {
-  /*padding-top: 100px;*/
+.navbar {
+  margin: 0;
+  
 }
 
 ul {
@@ -20,4 +19,17 @@ ul {
 
 .hideme {
   display: none;
+}
+
+.side-bar {
+  background-color: grey;
+  float: right;
+  height: 500px;
+  width: 200px;
+  display: none;
+  margin-left: 10px;
+}
+
+.side-bar-button {
+  float:right;
 }
