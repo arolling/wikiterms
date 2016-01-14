@@ -15,17 +15,29 @@
   </head>
   <body>
     <!-- NAV -->
-    <div class="container">
-      <nav>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
         <ul class="nav nav-pills">
           <li><a href="#">Home</a></li>
-          <li><a href="#">General Concepts</a></li>
-          <li><a href="#">Languages</a></li>
-          <li><a href="#">#</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">General Concepts<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Languages<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+            </ul>
+          </li>
         </ul>
-      </nav>
-    </div>
-    <!-- End NAV -->
+      </div>
+    </nav>
 
     <!-- Hero -->
     <div class="hero">
@@ -78,5 +90,14 @@
 
 
     </div>
+
+    <!-- footer -->
+    <nav class="navbar-fixed-bottom">
+      <div class="footer">
+        <p class="text-right">
+          &copy;Epicodus Wiki 2016
+        </p>
+      </div>
+    </nav>
   </body>
-</>
+</html>

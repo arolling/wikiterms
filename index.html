@@ -15,20 +15,26 @@
   </head>
   <body>
     <!-- NAV -->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
         <ul class="nav nav-pills">
           <li><a href="#">Home</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">General Concepts<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li>blah</li>
-              <li>blah</li>
-              <li>blah</li>
-              <li>blah</li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
             </ul>
           </li>
-          <li><a href="#">Languages</a></li>
-          <li><a href="#">#</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Languages<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+              <li><a href="#">blah</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </nav>
@@ -42,7 +48,7 @@
     <!-- Main Section -->
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-border">
+        <div class="col-md-6 col-border">
           <h3>General Concepts</h3>
           <ul class="hideme" id="general">
             <li><a href="#">Looping</a></li>
@@ -56,7 +62,7 @@
             <li><a href="#">Parameters</a></li>
           </ul>
         </div>
-        <div class="col-md-4 col-border">
+        <div class="col-md-6 col-border">
           <h3>Languages</h3>
           <ul class="hideme" id="languages">
             <li><a href="#">Markdown</a></li>
@@ -84,20 +90,16 @@
             </ul>
           </ul>
         </div>
-        <div class="col-md-4 col-border">
-          <h3>Other</h3>
-          <ul class="hideme" id="other">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
+
       </div>
-    </div>
+      <!-- footer -->
+      <nav class="navbar-fixed-bottom">
+        <div class="footer">
+          <p class="text-right">
+            &copy;Epicodus Wiki 2016
+          </p>
+        </div>
+      </nav>
+    </div><!--/.main container -->
   </body>
 </html>

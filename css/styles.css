@@ -1,14 +1,11 @@
 .col-border {
-  border: 2px solid black;
   text-align: center;
   padding: 10%;
   min-height: 300px;
-
 }
 
 .navbar {
   margin: 0;
-  
 }
 
 ul {
@@ -32,4 +29,11 @@ ul {
 
 .side-bar-button {
   float:right;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
