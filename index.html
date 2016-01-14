@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <!-- Stylesheets -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -25,6 +25,8 @@
         </ul>
       </nav>
     </div>
+    <!-- End NAV -->
+
     <div class="hero">
       <div class="jumbotron">
         <h1 class="text-center">Epicodus Wiki</h1>
@@ -33,14 +35,60 @@
     <!-- Main Section -->
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-border">
           <h3>General Concepts</h3>
+          <ul class="hideme" id="general">
+            <li><a href="#">Looping</a></li>
+            <li><a href="#">Branching</a></li>
+            <li><a href="#">DOM manipulation and traversal</a></li>
+            <li><a href="#">Attributes</a></li>
+            <li><a href="#">Arrays</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Responsive design</a></li>
+            <li><a href="#">Arguments</a></li>
+            <li><a href="#">Parameters</a></li>
+          </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-border">
           <h3>Languages</h3>
+          <ul class="hideme" id="languages">
+            <li><a href="#">Markdown</a></li>
+            <h4>HTML</h4>
+            <ul class="hideme" id="html">
+              <li><a href="#">Block elements</a></li>
+              <li><a href="#">Inline elements</a></li>
+              <li><a href="#">Divs and spans</a></li>
+            </ul>
+            <h4>CSS</h4>
+            <ul class="hideme" id="css">
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Floats</a></li>
+              <li><a href="#">Cascading styles</a></li>
+              <li><a href="#">Box model</a></li>
+              <li><a href="#">Grid system</a></li>
+            </ul>
+            <h4>JavaScript</h4>
+            <ul class="hideme" id="javascript">
+              <li><a href="#">Variables</a></li>
+              <li><a href="#">Methods</a></li>
+              <li><a href="#">Functions</a></li>
+              <li><a href="#">Strings</a></li>
+              <li><a href="#">jQuery</a></li>
+            </ul>
+          </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-border">
           <h3>Other</h3>
+          <ul class="hideme" id="other">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
       </div>
     </div>
