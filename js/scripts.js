@@ -15,4 +15,11 @@ $(document).ready(function() {
     $("#side-button").show();
 
   });
+
+  $("#arg-btn").click(function() {
+    function newFunc (p1) {
+      alert(p1);
+    }
+    newFunc("hey");
+  });
 });

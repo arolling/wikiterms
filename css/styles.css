@@ -2,8 +2,15 @@
   text-align: center;
   padding: 10%;
   min-height: 300px;
-}
 
+
+}
+h1:hover {
+  cursor: default;
+}
+h3, h4:hover {
+  cursor: pointer;
+}
 .navbar {
   margin: 0;
 }
@@ -17,7 +24,9 @@ ul {
 .hideme {
   display: none;
 }
-
+/*========
+SIDEBAR
+==========*/
 .side-bar {
   background-color: grey;
   float: right;
@@ -29,8 +38,25 @@ ul {
 
 .side-bar-button {
   float:right;
+  height: 100%;
+  margin-top: 30%;
 }
-
+.side-bar-open{
+  float: right;
+  margin-top: 150px;
+}
+#side-button-close {
+  margin-top: 150px;
+}
+.side-bar-links{
+  color:white;
+}
+.side-bar-links:hover{
+  color: lightgrey;
+}
+/*==========
+FOOTER
+===========*/
 .footer {
   height: 100px;
   width: 100%;
